@@ -6,7 +6,7 @@ YAML-based automation engine for HOMECORE with trigger evaluation, conditions, a
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![MSRV: 1.89+](https://img.shields.io/badge/MSRV-1.89%2B-purple.svg)
 [![Tests](https://img.shields.io/badge/tests-34%20passing-brightgreen.svg)](https://github.com/ruvnet/RuView)
-[![ADR-129](https://img.shields.io/badge/ADR-129-orange.svg)](../../docs/adr/ADR-129-homecore-automation-trigger-condition-action.md)
+[![ADR-129](https://img.shields.io/badge/ADR-129-orange.svg)](../../../docs/adr/ADR-129-homecore-automation-engine.md)
 
 Home Assistant-compatible automation engine for HOMECORE, parsing YAML trigger→condition→action rules and executing them against the HOMECORE event bus.
 
@@ -161,8 +161,8 @@ homecore-automation (automation engine)
 
 ## References
 
-- [ADR-129: HOMECORE Automation Engine](../../docs/adr/ADR-129-homecore-automation-trigger-condition-action.md)
-- [ADR-126: HOMECORE Home Assistant Port (master)](../../docs/adr/ADR-126-homecore-home-assistant-port.md)
+- [ADR-129: HOMECORE Automation Engine](../../../docs/adr/ADR-129-homecore-automation-engine.md)
+- [ADR-126: HOMECORE Home Assistant Port (master)](../../../docs/adr/ADR-126-ruview-native-ha-port-master.md)
 - [Home Assistant Automation Integration](https://www.home-assistant.io/docs/automation/)
 - [MiniJinja Documentation](https://docs.rs/minijinja/latest/minijinja/)
 - [README — wifi-densepose](../../../README.md)

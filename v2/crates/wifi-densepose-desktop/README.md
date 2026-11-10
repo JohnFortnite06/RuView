@@ -2,7 +2,7 @@
 
 > **Work in Progress** — This crate is under active development. APIs and UI are subject to change.
 
-Cross-platform desktop application for managing ESP32 WiFi sensing networks. Built with **Tauri v2** (Rust backend) and **React + TypeScript** (frontend), following the [ADR-053 design system](../../docs/adr/ADR-053-ui-design-system.md).
+Cross-platform desktop application for managing ESP32 WiFi sensing networks. Built with **Tauri v2** (Rust backend) and **React + TypeScript** (frontend), following the [ADR-053 design system](../../../docs/adr/ADR-053-ui-design-system.md).
 
 ## Overview
 

@@ -6,7 +6,7 @@
 | **Date** | 2026-07-21 (impl status recorded 2026-07-21) |
 | **Deciders** | ruv |
 | **Codename** | **PIP-TRINITY** — three SOTA subsystems join the `wifi_densepose` wheel |
-| **Relates to** | [ADR-117](ADR-117-pip-wifi-densepose-modernization.md) (PIP-PHOENIX — the PyO3 wheel this extends), [ADR-024](ADR-024-contrastive-csi-embedding-model.md) (AETHER contrastive embeddings), [ADR-027](ADR-027-cross-environment-domain-generalization.md) (MERIDIAN domain generalization), [ADR-152](ADR-152-wifi-pose-sota-2026.md) (WiFlow-STD ~96% PCK@20 SOTA bar) |
+| **Relates to** | [ADR-117](ADR-117-pip-wifi-densepose-modernization.md) (PIP-PHOENIX — the PyO3 wheel this extends), [ADR-024](ADR-024-contrastive-csi-embedding-model.md) (AETHER contrastive embeddings), [ADR-027](ADR-027-cross-environment-domain-generalization.md) (MERIDIAN domain generalization), [ADR-152](ADR-152-wifi-pose-sota-2026-intake.md) (WiFlow-STD ~96% PCK@20 SOTA bar) |
 | **Tracking issue** | TBD — file under RuView issue tracker |
 
 ---

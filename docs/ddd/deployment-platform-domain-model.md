@@ -641,7 +641,7 @@ For multi-room deployments, each appliance is self-contained (runs its own sensi
 
 - [ADR-046: Android TV Box / Armbian Deployment](../adr/ADR-046-android-tv-box-armbian-deployment.md) — Primary architectural decision
 - [ADR-012: ESP32 CSI Sensor Mesh](../adr/ADR-012-esp32-csi-sensor-mesh.md) — ESP32 mesh network design
-- [ADR-018: Dev Implementation](../adr/ADR-018-dev-implementation.md) — ESP32 binary CSI protocol
+- [ADR-018: Dev Implementation](../adr/ADR-018-esp32-dev-implementation.md) — ESP32 binary CSI protocol
 - [ADR-039: Edge Intelligence](../adr/ADR-039-esp32-edge-intelligence.md) — On-device processing tiers
 - [ADR-044: Provisioning Tool](../adr/ADR-044-provisioning-tool-enhancements.md) — NVS provisioning for ESP32 nodes
 - [Hardware Platform Domain Model](hardware-platform-domain-model.md) — Upstream domain (ESP32 hardware)

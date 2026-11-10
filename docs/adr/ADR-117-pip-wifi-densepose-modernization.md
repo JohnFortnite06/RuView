@@ -6,7 +6,7 @@
 | **Date** | 2026-05-24 |
 | **Deciders** | ruv |
 | **Codename** | **PIP-PHOENIX** — rising from a pure-Python server to Rust-core Python bindings |
-| **Relates to** | [ADR-021](ADR-021-esp32-vitals.md) (ESP32 vitals), [ADR-028](ADR-028-esp32-capability-audit.md) (capability audit / witness), [ADR-115](ADR-115-home-assistant-integration.md) (HA-DISCO + HA-MIND MQTT semantics), [ADR-116](ADR-116-cog-ha-matter-seed.md) (HA-COG Seed packaging) |
+| **Relates to** | [ADR-021](ADR-021-vital-sign-detection-rvdna-pipeline.md) (ESP32 vitals), [ADR-028](ADR-028-esp32-capability-audit.md) (capability audit / witness), [ADR-115](ADR-115-home-assistant-integration.md) (HA-DISCO + HA-MIND MQTT semantics), [ADR-116](ADR-116-cog-ha-matter-seed.md) (HA-COG Seed packaging) |
 | **Tracking issue** | TBD — file under RuView issue tracker |
 
 ---

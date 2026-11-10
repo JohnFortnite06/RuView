@@ -6,7 +6,7 @@
 | **Date** | 2026-07-21 |
 | **Deciders** | ruv |
 | **Codename** | **TRAIN-RECONNECT** — connecting a trainer that was written, committed, and then never plugged in |
-| **Relates to** | [ADR-051](ADR-051-sensing-server-decomposition.md) (main.rs decomposition into ~14 modules), [ADR-151](ADR-151-per-room-calibration.md) (`train-room` specialist bank), [ADR-152](ADR-152-wifi-pose-sota-2026.md) (MAE recipe / geometry conditioning), [ADR-166](ADR-166-quality-engineering-security-hardening.md) (WS auth + god-object decomposition) |
+| **Relates to** | [ADR-051](ADR-051-sensing-server-decomposition.md) (main.rs decomposition into ~14 modules), [ADR-151](ADR-151-room-calibration-specialist-training.md) (`train-room` specialist bank), [ADR-152](ADR-152-wifi-pose-sota-2026-intake.md) (MAE recipe / geometry conditioning), [ADR-166](ADR-166-quality-engineering-security-hardening.md) (WS auth + god-object decomposition) |
 | **Tracking issue** | [#1233](https://github.com/ruvnet/wifi-densepose/issues/1233) — "Training does not start – /ws/train/progress returns 404 and no model is generated" (open) |
 
 ---

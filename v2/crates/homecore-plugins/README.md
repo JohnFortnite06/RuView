@@ -6,7 +6,7 @@ WASM integration plugin runtime for HOMECORE with native Rust runtime (P1) and W
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![MSRV: 1.89+](https://img.shields.io/badge/MSRV-1.89%2B-purple.svg)
 [![Tests](https://img.shields.io/badge/tests-10%20passing-brightgreen.svg)](https://github.com/ruvnet/RuView)
-[![ADR-128](https://img.shields.io/badge/ADR-128-orange.svg)](../../docs/adr/ADR-128-homecore-integration-plugin-system.md)
+[![ADR-128](https://img.shields.io/badge/ADR-128-orange.svg)](../../../docs/adr/ADR-128-homecore-integration-plugin-system.md)
 
 **P1 scaffold**: manifest parsing, plugin traits, and in-memory native Rust plugin registry. Wasmtime sandbox (P2) and hot-reload (P3) are deferred.
 
@@ -138,7 +138,7 @@ homecore-plugins (plugin registry + runtime abstraction)
 
 ## References
 
-- [ADR-128: HOMECORE Integration Plugin System](../../docs/adr/ADR-128-homecore-integration-plugin-system.md)
+- [ADR-128: HOMECORE Integration Plugin System](../../../docs/adr/ADR-128-homecore-integration-plugin-system.md)
 - [homecore-plugin-example: reference WASM plugin](../homecore-plugin-example)
 - [Host ABI spec](src/host_abi.rs)
 - [README — wifi-densepose](../../../README.md)

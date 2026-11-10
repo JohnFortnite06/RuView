@@ -6,7 +6,7 @@ Voice-activated intent recognition and execution pipeline for HOMECORE with Rufl
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![MSRV: 1.89+](https://img.shields.io/badge/MSRV-1.89%2B-purple.svg)
 [![Tests](https://img.shields.io/badge/tests-23%20passing-brightgreen.svg)](https://github.com/ruvnet/RuView)
-[![ADR-133](https://img.shields.io/badge/ADR-133-orange.svg)](../../docs/adr/ADR-133-homecore-assist-ruflo.md)
+[![ADR-133](https://img.shields.io/badge/ADR-133-orange.svg)](../../../docs/adr/ADR-133-homecore-assist-ruflo.md)
 
 **P1 scaffold**: intent recognition via regex patterns, 5 built-in intent handlers (turn on/off, set brightness, cancel), and Ruflo runner trait surface. Real `tokio::process` subprocess integration (P2) allows orchestration with Ruflo agents for complex multi-step actions.
 
@@ -140,8 +140,8 @@ homecore-assist (intent pipeline + Ruflo bridge)
 
 ## References
 
-- [ADR-133: HOMECORE Assist — Voice/Intent + Ruflo Bridge](../../docs/adr/ADR-133-homecore-assist-ruflo.md)
-- [ADR-126: HOMECORE Home Assistant Port (master)](../../docs/adr/ADR-126-homecore-home-assistant-port.md)
+- [ADR-133: HOMECORE Assist — Voice/Intent + Ruflo Bridge](../../../docs/adr/ADR-133-homecore-assist-ruflo.md)
+- [ADR-126: HOMECORE Home Assistant Port (master)](../../../docs/adr/ADR-126-ruview-native-ha-port-master.md)
 - [Home Assistant Assist Integration](https://www.home-assistant.io/blog/2024/03/04/introducing-home-assistants-local-voice-control/)
 - [Ruflo Documentation](https://github.com/ruvnet/claude-flow)
 - [README — wifi-densepose](../../../README.md)

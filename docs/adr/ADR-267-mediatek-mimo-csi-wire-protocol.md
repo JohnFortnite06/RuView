@@ -132,7 +132,7 @@ Expect 1x2 or 2x2 on 5 GHz, and size consumers for the chipset profile's
 ## Links
 
 - [ADR-266: MediaTek Filogic CSI platform](ADR-266-mediatek-filogic-csi-platform.md)
-- [ADR-018: ESP32 binary CSI framing](ADR-018-esp32-csi-frame-protocol.md)
+- [ADR-018: ESP32 binary CSI framing](ADR-018-esp32-dev-implementation.md)
 - [ADR-264: RTL8720F radar wire protocol](ADR-264-rtl8720f-radar-wire-protocol.md)
 - Amendment 1 implementation: `v2/crates/wifi-densepose-hardware/src/mediatek_csi.rs`
   (codec) and `v2/crates/wifi-densepose-mtk-bridge` (`ppdu_from_rx_mode`). The
