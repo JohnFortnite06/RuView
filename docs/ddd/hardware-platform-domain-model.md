@@ -8,7 +8,7 @@ This document defines the system using [Domain-Driven Design](https://martinfowl
 
 | # | Context | Responsibility | Key ADRs | Code |
 |---|---------|----------------|----------|------|
-| 1 | [Sensor Node](#1-sensor-node-context) | WiFi CSI collection, channel hopping, TDM scheduling, UDP streaming | [ADR-012](../adr/ADR-012-esp32-csi-sensor-mesh.md), [ADR-018](../adr/ADR-018-dev-implementation.md) | `firmware/esp32-csi-node/main/{csi_collector,stream_sender,nvs_config}.c` |
+| 1 | [Sensor Node](#1-sensor-node-context) | WiFi CSI collection, channel hopping, TDM scheduling, UDP streaming | [ADR-012](../adr/ADR-012-esp32-csi-sensor-mesh.md), [ADR-018](../adr/ADR-018-esp32-dev-implementation.md) | `firmware/esp32-csi-node/main/{csi_collector,stream_sender,nvs_config}.c` |
 | 2 | [Edge Processing](#2-edge-processing-context) | On-device DSP pipeline (Tiers 0-2): phase unwrap, presence, vitals, fall detection | [ADR-039](../adr/ADR-039-esp32-edge-intelligence.md) | `firmware/esp32-csi-node/main/edge_processing.c` |
 | 3 | [WASM Runtime](#3-wasm-runtime-context) | Tier 3 programmable sensing: module management, host API, budget control, RVF containers | [ADR-040](../adr/ADR-040-wasm-programmable-sensing.md), [ADR-041](../adr/ADR-041-wasm-module-collection.md) | `firmware/esp32-csi-node/main/{wasm_runtime,wasm_upload,rvf_parser}.c` |
 | 4 | [Aggregation](#4-aggregation-context) | Server-side CSI frame reception, timestamp alignment, multi-node feature fusion | [ADR-012](../adr/ADR-012-esp32-csi-sensor-mesh.md) | `crates/wifi-densepose-hardware/src/esp32/` |
@@ -1331,7 +1331,7 @@ All ESP32 UDP packets share a 4-byte magic prefix for demuxing at the aggregator
 ## References
 
 - [ADR-012: ESP32 CSI Sensor Mesh](../adr/ADR-012-esp32-csi-sensor-mesh.md) -- Hardware selection, mesh architecture, BOM
-- [ADR-018: Dev Implementation](../adr/ADR-018-dev-implementation.md) -- Binary frame format, ADR-018 wire protocol
+- [ADR-018: Dev Implementation](../adr/ADR-018-esp32-dev-implementation.md) -- Binary frame format, ADR-018 wire protocol
 - [ADR-039: ESP32-S3 Edge Intelligence](../adr/ADR-039-esp32-edge-intelligence.md) -- Tiered processing, DSP pipeline, hardware benchmarks
 - [ADR-040: WASM Programmable Sensing](../adr/ADR-040-wasm-programmable-sensing.md) -- WASM3 runtime, Host API, RVF container, adaptive budget
 - [ADR-041: WASM Module Collection](../adr/ADR-041-wasm-module-collection.md) -- 60-module catalog, event ID registry, budget tiers

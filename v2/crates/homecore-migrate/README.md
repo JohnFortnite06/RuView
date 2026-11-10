@@ -2,7 +2,7 @@
 
 Migration tooling for importing Home Assistant filesystem storage into
 HOMECORE. The implementation follows
-[ADR-165](../../docs/adr/ADR-165-homecore-migrate-from-home-assistant.md).
+[ADR-165](../../../docs/adr/ADR-165-homecore-migrate-from-home-assistant.md).
 
 ## Implemented
 

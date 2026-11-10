@@ -6,7 +6,7 @@
 | **Date** | 2026-05-24 |
 | **Deciders** | ruv |
 | **Parent** | [ADR-118](ADR-118-bfld-beamforming-feedback-layer-for-detection.md) |
-| **Relates to** | [ADR-022](ADR-022-multi-bssid-wifi-scanning.md) (multi-BSSID scan), [ADR-028](ADR-028-esp32-capability-audit.md) (capability audit), [ADR-095](ADR-095-rvcsi-edge-rf-sensing-platform.md) (rvCSI), [ADR-096](ADR-096-rvcsi-ffi-crate-layout.md) (rvCSI FFI), [ADR-110](ADR-110-esp32-c6-firmware-extension.md) (C6 firmware), [ADR-119](ADR-119-bfld-frame-format-and-wire-protocol.md) (BfldFrame) |
+| **Relates to** | [ADR-022](ADR-022-windows-wifi-enhanced-fidelity-ruvector.md) (multi-BSSID scan), [ADR-028](ADR-028-esp32-capability-audit.md) (capability audit), [ADR-095](ADR-095-rvcsi-edge-rf-sensing-platform.md) (rvCSI), [ADR-096](ADR-096-rvcsi-ffi-crate-layout.md) (rvCSI FFI), [ADR-110](ADR-110-esp32-c6-firmware-extension.md) (C6 firmware), [ADR-119](ADR-119-bfld-frame-format-and-wire-protocol.md) (BfldFrame) |
 | **Tracking issue** | TBD |
 
 ---

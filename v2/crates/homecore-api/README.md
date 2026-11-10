@@ -6,7 +6,7 @@ Home Assistant-compatible REST + WebSocket API for HOMECORE state and events.
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![MSRV: 1.89+](https://img.shields.io/badge/MSRV-1.89%2B-purple.svg)
 [![Tests](https://img.shields.io/badge/tests-18%20passing-brightgreen.svg)](https://github.com/ruvnet/RuView)
-[![ADR-130](https://img.shields.io/badge/ADR-130-orange.svg)](../../docs/adr/ADR-130-homecore-api-rest-websocket.md)
+[![ADR-130](https://img.shields.io/badge/ADR-130-orange.svg)](../../../docs/adr/ADR-130-homecore-rest-websocket-api.md)
 
 Wire-compatible Axum REST + WebSocket server that mirrors Home Assistant's `/api/` routes. Ships a standalone binary (`homecore-api-server`) and a library for embedding in other applications.
 
@@ -128,7 +128,7 @@ homecore-api (REST + WebSocket server)
 
 ## References
 
-- [ADR-130: HOMECORE REST + WebSocket API](../../docs/adr/ADR-130-homecore-api-rest-websocket.md)
-- [ADR-126: HOMECORE Home Assistant Port (master)](../../docs/adr/ADR-126-homecore-home-assistant-port.md)
+- [ADR-130: HOMECORE REST + WebSocket API](../../../docs/adr/ADR-130-homecore-rest-websocket-api.md)
+- [ADR-126: HOMECORE Home Assistant Port (master)](../../../docs/adr/ADR-126-ruview-native-ha-port-master.md)
 - [homecore-api-server binary](src/bin/server.rs)
 - [README — wifi-densepose](../../../README.md)

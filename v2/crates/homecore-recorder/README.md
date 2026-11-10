@@ -6,7 +6,7 @@ SQLite state-history recorder for HOMECORE with Home Assistant-compatible schema
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![MSRV: 1.89+](https://img.shields.io/badge/MSRV-1.89%2B-purple.svg)
 [![Tests](https://img.shields.io/badge/tests-14%20passing-brightgreen.svg)](https://github.com/ruvnet/RuView)
-[![ADR-132](https://img.shields.io/badge/ADR-132-orange.svg)](../../docs/adr/ADR-132-homecore-recorder-history-semantic-search.md)
+[![ADR-132](https://img.shields.io/badge/ADR-132-orange.svg)](../../../docs/adr/ADR-132-homecore-recorder-history-semantic-search.md)
 
 **P1 release**: SQLite database with Home Assistant-compatible schema for persistent state history. **P2 (feature-gated)**: ruvector HNSW semantic index for natural-language queries ("show me all kitchen devices that were warm at 3 PM").
 
@@ -144,7 +144,7 @@ homecore-recorder (state history + semantic search)
 
 ## References
 
-- [ADR-132: HOMECORE Recorder — History + Semantic Search](../../docs/adr/ADR-132-homecore-recorder-history-semantic-search.md)
-- [ADR-126: HOMECORE Home Assistant Port (master)](../../docs/adr/ADR-126-homecore-home-assistant-port.md)
+- [ADR-132: HOMECORE Recorder — History + Semantic Search](../../../docs/adr/ADR-132-homecore-recorder-history-semantic-search.md)
+- [ADR-126: HOMECORE Home Assistant Port (master)](../../../docs/adr/ADR-126-ruview-native-ha-port-master.md)
 - [Home Assistant Recorder Integration](https://www.home-assistant.io/integrations/recorder/)
 - [README — wifi-densepose](../../../README.md)

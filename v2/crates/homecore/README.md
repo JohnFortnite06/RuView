@@ -6,7 +6,7 @@ Rust port of Home Assistant's core state machine, event bus, service registry, a
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![MSRV: 1.89+](https://img.shields.io/badge/MSRV-1.89%2B-purple.svg)
 [![Tests](https://img.shields.io/badge/tests-20%20passing-brightgreen.svg)](https://github.com/ruvnet/RuView)
-[![ADR-127](https://img.shields.io/badge/ADR-127-orange.svg)](../../docs/adr/ADR-127-homecore-state-machine-rust.md)
+[![ADR-127](https://img.shields.io/badge/ADR-127-orange.svg)](../../../docs/adr/ADR-127-homecore-state-machine-rust.md)
 
 **P1 scaffold**: foundational types, DashMap-backed state machine, and Tokio broadcast event bus. Persistence and full Home Assistant schema compatibility land in P2.
 
@@ -126,6 +126,6 @@ homecore (state machine + event bus + registries)
 
 ## References
 
-- [ADR-127: HOMECORE State Machine in Rust](../../docs/adr/ADR-127-homecore-state-machine-rust.md)
-- [ADR-126: HOMECORE Home Assistant Port (master)](../../docs/adr/ADR-126-homecore-home-assistant-port.md)
+- [ADR-127: HOMECORE State Machine in Rust](../../../docs/adr/ADR-127-homecore-state-machine-rust.md)
+- [ADR-126: HOMECORE Home Assistant Port (master)](../../../docs/adr/ADR-126-ruview-native-ha-port-master.md)
 - [README — wifi-densepose](../../../README.md)

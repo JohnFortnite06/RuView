@@ -151,7 +151,7 @@ Each phase is one PR, each PR has unit + integration tests against the rvCSI sur
 - [ADR-095 — rvCSI Edge RF Sensing Platform](ADR-095-rvcsi-edge-rf-sensing-platform.md)
 - [ADR-096 — rvCSI Crate Topology, the napi-c Shim, the napi-rs Surface](ADR-096-rvcsi-ffi-crate-layout.md)
 - [ADR-014 — SOTA Signal Processing in `wifi-densepose-signal`](ADR-014-sota-signal-processing.md)
-- [ADR-016 — RuVector Training Pipeline Integration](ADR-016-ruvector-training-pipeline.md)
+- [ADR-016 — RuVector Training Pipeline Integration](ADR-016-ruvector-integration.md)
 - [ADR-031 — RuView Sensing-First RF Mode](ADR-031-ruview-sensing-first-rf-mode.md)
 - [`github.com/ruvnet/rvcsi`](https://github.com/ruvnet/rvcsi) — 9 crates on crates.io @ 0.3.1, `@ruv/rvcsi 0.3.1` on npm, Claude Code plugin marketplace
 - `vendor/rvcsi` (submodule) — currently pinned at `acd5689d` (0.3.0 commit); bumps to `0.3.1` HEAD as part of P1

@@ -84,4 +84,4 @@ For each primitive, the precision/recall trade-off vs threshold value is plotted
 - [ADR-115 §3.12](../adr/ADR-115-home-assistant-integration.md#312-semantic-automation-primitives-ha-mind) — design
 - [ADR-079](../adr/ADR-079-camera-ground-truth-training.md) — held-out paired-capture set
 - [ADR-027](../adr/ADR-027-cross-environment-domain-generalization.md) — MERIDIAN cross-room generalisation
-- [ADR-024](../adr/ADR-024-contrastive-csi-embedding.md) — AETHER contrastive embedding used by BR head
+- [ADR-024](../adr/ADR-024-contrastive-csi-embedding-model.md) — AETHER contrastive embedding used by BR head
